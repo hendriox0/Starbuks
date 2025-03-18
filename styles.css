@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} /*esse deve iniciar todo codigo css para zerar as configurações padrão do navegador*/
+
+body{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixaTexto{
+    width: 600px;
+
+}
+
+h1{
+    color: #333333;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+span{
+    color:#017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 16px;
+}
+
+button{
+    background: #004b2c;
+    color:#ffffff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px; /*distanciamento interno*/
+    margin-top: 20px; /*distanciamento do topo*/
+    cursor: pointer; /* Muda ponteiro do mouse*/
+    transition: 0.5s; /*transição de cor ao posicionar o ponteiro*/
+
+}
+
+button:hover{
+
+    background: #01b66b;
+
+}
+
+.caixaImagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.starbucks{
+    width: 300px;
+}
+
+.menu{
+    display: flex;
+    padding-right: 10%;
+    justify-content: center;
+    
+    
+}
+
+.botaoMenu{
+    width: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left:30px;
+}
+
+
+.botaoMenu:hover {
+    transform: translateY(-30px);
+    
+}
+
+
+
+
+
+
+  .circulo {
+    font-size: 2em;
+    width: 115vw;
+    height: 120vh;
+    
+    background: #017143;
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+ 
+    
+    clip-path: circle(50% at right 70%);
+    z-index: -1;
+}
+
+a{ 
+    all:unset;
+}
