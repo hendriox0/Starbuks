@@ -107,7 +107,7 @@ button:hover{
     left: 0;
  
     
-    clip-path: circle(50% at right 70%);
+    clip-path: circle(70% at right 70%);
     z-index: -1;
 }
 
